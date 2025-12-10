@@ -187,8 +187,12 @@ class _LanguageSelectionDialogState extends State<LanguageSelectionDialog> {
                   buttonColor: AppColors.blueLightColor,
                   buttonName: "확인",
                   buttonFontColor: Colors.white,
-                  onPressed:
-                      () => Navigator.pop(context, _newSelectedLanguages), // 확인 클릭
+                  onPressed: () {
+                    // 디버깅
+                    final String languageType = widget.isInputLanguage ? '인식' : '출력';
+                    debugPrint("[$languageType 언어] ${_newSelectedLanguages}");
+                    Navigator.pop(context, _newSelectedLanguages);  // 확인 클릭
+                  }
                 ),
               ],
             ),
