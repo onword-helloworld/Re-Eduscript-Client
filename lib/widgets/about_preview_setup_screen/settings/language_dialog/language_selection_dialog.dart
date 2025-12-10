@@ -1,6 +1,7 @@
+// [widgets/about_preview_setup_screen/settings/language_dialog/language_selection_dialog.dart]
+// [언어 선택 다이얼로그 창]
 
 import 'package:flutter/material.dart';
-
 import 'package:re_eduscript_client/widgets/about_preview_setup_screen/settings/language_dialog/set_languages_button_widget.dart'; // [providers] 언어 선택
 import 'package:re_eduscript_client/core/styles/app_colors.dart'; // [cores] 색상
 import 'package:re_eduscript_client/widgets/about_preview_setup_screen/settings/language_dialog/language_checkbox_tile_widget.dart';

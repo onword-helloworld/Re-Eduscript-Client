@@ -1,3 +1,6 @@
+// [widgets/about_preview_setup_screen/settings/language_dialog/searching_box_widget.dart]
+// [언어 선택 다이얼로그 창 - 검색 상자 위젯]
+
 import 'package:flutter/material.dart';
 
 class SearchingBox extends StatelessWidget {

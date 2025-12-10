@@ -1,5 +1,5 @@
-// []
-// [settings] 위젯을 구분하는 구분선 (UI)
+// [widgets/about_preview_setup_screen/settings/components/section_divider.dart]
+// [드롭다운 위젯 구분선]
 
 import 'package:flutter/material.dart';
 
